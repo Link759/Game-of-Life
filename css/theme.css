@@ -1,0 +1,14 @@
+#gameBoard tr td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+    margin: 0;
+}
+
+#gameBoard tr td.alive {
+    background-color: #000;
+}
+
+.commands {
+    margin-top: 20px;
+}

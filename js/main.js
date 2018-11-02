@@ -19,7 +19,8 @@ function getState() {
   }
   
   state.append(rowValues);
-}  
+} 
+console.log(state)
   // bool: true/false
   // arrays
   /*

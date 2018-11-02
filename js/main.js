@@ -7,12 +7,18 @@ function getState() {
   for (var y=0; y<rows.length; y += 1) {
     var row = rows [y];
     var cells = row.getElementsByTagName('td');
+    
+    var rowValues = [];
+    
     for (var x=0; x<cells.length; x += 1) {
         var cell = cells [x];
         var alive = cell.classList.contains('alive');
         console.log(alive)
+      rowValues.append(alive)
       }
   }
+  
+  state.append(rowValues);
 }  
   // bool: true/false
   // arrays
